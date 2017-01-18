@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/double_margin"
+    android:layout_marginRight="@dimen/splitter_thickness"
+    android:layout_marginLeft="@dimen/splitter_thickness">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="@dimen/double_margin"
+        >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="@dimen/greater_image_size"
+                android:layout_width="match_parent"
+                android:gravity="left"
+                >
+
+                <include
+                    android:id="@+id/view_date"
+                    layout="@layout/view_date"
+                    android:layout_width="@dimen/greater_image_size"
+                    android:layout_height="@dimen/greater_image_size"
+                    android:layout_marginRight="@dimen/double_margin"
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="@dimen/greater_image_size"
+                    android:layout_width="wrap_content"
+                    android:padding="0dp"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/colorTextPrimary"
+                        android:scaleType="fitCenter"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_weight="0"
+                        android:text="Учебный офис"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="@color/colorTextSecondary"
+                        android:scaleType="fitCenter"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_weight="0"
+                        android:text="Для 1 и 2 курсов"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="@dimen/greater_image_size"
+                    android:layout_width="match_parent"
+                    android:gravity="start">
+                    <ImageButton
+                        android:id="@+id/moreInfoButton"
+                        android:layout_height="@dimen/secondary_image_size"
+                        android:layout_width="@dimen/secondary_image_size"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="@dimen/primary_image_offset"
+                        android:layout_weight="0"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+
+                        android:src="@drawable/ic_moreinfo"
+                        android:background="@null"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="@color/colorTextNavBar"
+                android:scaleType="fitCenter"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="0"
+                android:paddingTop="@dimen/double_margin"
+                android:paddingRight="32dp"
+
+                android:paddingBottom="@dimen/double_margin"
+                android:text="Вы не очень."/>
+            <FrameLayout
+                android:orientation="vertical"
+                android:layout_height="@dimen/splitter_thickness"
+                android:layout_width="match_parent"
+                android:padding="0dp"
+                android:background="@color/colorSplitter"
+                />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:paddingTop="16dp"
+            android:paddingBottom="0dp">
+
+            <ImageButton
+                android:id="@+id/humanButton"
+                android:layout_height="@dimen/tertiary_image_size"
+                android:layout_width="@dimen/tertiary_image_size"
+                android:layout_gravity="center"
+
+                android:layout_marginRight="@dimen/secondary_image_offset"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+
+                android:src="@drawable/ic_megaphone_inactive"
+                android:background="@null"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorTextSecondary"
+                android:scaleType="fitCenter"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_weight="0"
+                android:layout_margin="0dp"
+                android:text="Важное"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="right">
+
+                <ImageView
+                    android:id="@+id/clockButton"
+                    android:layout_height="@dimen/tertiary_image_size"
+                    android:layout_width="@dimen/tertiary_image_size"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/default_margin"
+                    android:layout_weight="0"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+
+                    android:src="@drawable/ic_clock"
+                    android:background="@null"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorTabsScroll"
+                    android:scaleType="fitCenter"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="0"
+
+                    android:text="20:30"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

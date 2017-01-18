@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="0dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:padding="0dp">
+            <include
+                android:id="@+id/card_events"
+                layout="@layout/card_events"
+                />
+            <include
+                android:id="@+id/card_events5"
+                layout="@layout/card_events"
+                />
+            <include
+                android:id="@+id/card_events4"
+                layout="@layout/card_events"
+                />
+            <include
+                android:id="@+id/card_events3"
+                layout="@layout/card_events"
+                />
+            <include
+                android:id="@+id/card_events2"
+                layout="@layout/card_events"
+                />
+            <include
+                android:id="@+id/card_events1"
+                layout="@layout/card_events"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

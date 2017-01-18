@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <net.styleru.biandroid.util.CustomPreferenceCategory
+        android:title="@string/settings_main"
+        >
+        <android.support.v7.preference.ListPreference
+            android:key="courses"
+            android:entries="@array/courses"
+            android:summary="Для какого курса будет отображаться информация"
+            android:entryValues="@array/courses"
+            android:title="Курсы" />
+        <android.support.v7.preference.ListPreference
+            android:key="weeks"
+            android:entries="@array/weeks"
+            android:summary="На сколько недель вперед будет отображаться информация"
+            android:entryValues="@array/weeks"
+            android:title="Недели" />
+    </net.styleru.biandroid.util.CustomPreferenceCategory>
+
+
+
+</android.support.v7.preference.PreferenceScreen>

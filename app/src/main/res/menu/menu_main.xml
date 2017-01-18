@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.activity.MainActivity"
+    app:title=""
+    >
+
+    <item
+        android:layout_width="@dimen/secondary_image_size"
+        android:layout_height="@dimen/secondary_image_size"
+        android:id="@+id/action_nav"
+        android:icon="@drawable/ic_nav"
+        android:title=""
+        android:layout_gravity="left"
+        app:showAsAction="ifRoom"/>
+<!--
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/title"
+        android:title="@string/navbar_timetable"
+        android:layout_gravity=""
+        app:showAsAction="ifRoom"/>
+        -->
+</menu>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/double_margin"
+    android:layout_marginRight="@dimen/splitter_thickness"
+    android:layout_marginLeft="@dimen/splitter_thickness">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="@dimen/double_margin">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="left">
+
+            <include
+                android:id="@+id/view_date"
+                layout="@layout/view_date"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="@dimen/double_margin"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textColor="@color/colorTextPrimary"
+                    android:scaleType="fitCenter"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_weight="0"
+                    android:text="Математический анализ(рус)"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textColor="@color/colorTextSecondary"
+                    android:scaleType="fitCenter"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_weight="0"
+                    android:text="20 кредитов"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@color/colorTextNavBar"
+            android:scaleType="fitCenter"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="0"
+            android:paddingTop="@dimen/double_margin"
+            android:paddingLeft="0dp"
+            android:paddingRight="32dp"
+            android:paddingBottom="0dp"
+            android:textStyle="bold"
+            android:text="Преподаватели:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@color/colorTextNavBar"
+            android:scaleType="fitCenter"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="0"
+            android:paddingTop="@dimen/default_margin"
+            android:paddingLeft="0dp"
+            android:paddingRight="32dp"
+            android:paddingBottom="0dp"
+            android:text="Злотник А.А.\nСубоч Г.Г.\nЕфимова Н.З."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@color/colorTextNavBar"
+            android:scaleType="fitCenter"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="0"
+            android:paddingTop="@dimen/default_margin"
+            android:paddingLeft="0dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="0dp"
+            android:textStyle="bold"
+            android:text="Программа курса:"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingTop="@dimen/default_margin"
+            android:paddingLeft="0dp"
+            android:paddingBottom="0dp">
+
+            <ImageButton
+                android:id="@+id/humanButton"
+                android:layout_height="@dimen/secondary_image_size"
+                android:layout_width="@dimen/secondary_image_size"
+                android:layout_gravity="center"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:layout_weight="0"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+
+                android:src="@drawable/ic_file"
+                android:background="@null"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorTextSecondary"
+                android:scaleType="fitCenter"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="0"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:text="Программа курса.odt"/>
+            </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

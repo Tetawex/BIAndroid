@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/double_margin"
+    android:layout_marginLeft="@dimen/double_margin"
+    android:layout_marginRight="@dimen/double_margin">
+    <LinearLayout
+        android:id="@+id/studiesList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorTextPrimary"
+            android:scaleType="fitCenter"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:padding="@dimen/default_margin"
+            android:text="Математический анализ"
+            android:background="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="double_margin">16dp</dimen>
+    <dimen name="quadruple_margin">32dp</dimen>
+    <dimen name="drawer_margin">0dp</dimen>
+    <dimen name="primary_image_size">40dp</dimen>
+    <dimen name="greater_image_size">48dp</dimen>
+    <dimen name="primary_image_offset">4dp</dimen>
+    <dimen name="secondary_image_size">24dp</dimen>
+    <dimen name="tertiary_image_size">20dp</dimen>
+    <dimen name="secondary_image_offset">12dp</dimen>
+    <dimen name="splitter_thickness">0.5dp</dimen>
+</resources>

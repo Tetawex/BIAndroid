@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAFAFA</color>
+    <color name="colorPrimaryDark">#E1E1E1</color>
+    <color name="colorPrimaryDarkTransparent">#99E1E1E1</color>
+    <color name="colorTextSecondary">#C7C7C7</color>
+    <color name="colorTextPrimary">#474747</color>
+    <color name="colorSplitter">#D6D6D6</color>
+    <color name="colorAccent">#FAFAFA</color>
+    <color name="colorTabBackground">#FFFFFF</color>
+    <color name="colorTextNavBar">#424242</color>
+    <color name="colorTitleText">#424242</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorTabsScroll">#01579B</color>
+    <color name="colorMarkedForRemoval">#FF0000</color>
+    <color name="colorTransparentBackground">#33FAFAFA</color>
+    <color name="colorDarkBackground">#AA424242</color>
+</resources>
